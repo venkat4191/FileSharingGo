@@ -2,7 +2,7 @@
 
 package main
 
-#comment added
+# comment added
 #feature branch comment
 import (
 	"fmt"
