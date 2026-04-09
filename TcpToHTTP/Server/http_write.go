@@ -23,6 +23,7 @@ func writeHTTPBinary(
     contentType string,
 ) {
 
+
 	connectionHeader := "close"
 	if keepAlive {
 		connectionHeader = "keep-alive"
