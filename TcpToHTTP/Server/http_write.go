@@ -18,6 +18,7 @@ func writeHTTP(
 func BugFix(
     conn net.Conn,
     bidi string,
+	new_add string,
     keepAlive bool,
     contentType string,
 ) {
