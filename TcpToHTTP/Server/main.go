@@ -1,11 +1,15 @@
 
 
 package main
+<<<<<<< Updated upstream
 
 
 #comment added in the main branch if you go to feature branch the comment should not be there
 
 
+=======
+#comment added after merging
+>>>>>>> Stashed changes
 # comment added
 #feature branch comment is added this should not be shown in main branch for this point
 # now all commits will be visible
