@@ -1,12 +1,21 @@
 package main
 
-#comment added
 import (
 	"net"
 	"strconv"
 )
 
 func writeHTTP(
+    conn net.Conn,
+    status int,
+    body string,
+    keepAlive bool,
+    contentType string,
+) {
+	writeHTTPBinary(conn, status, []byte(body), keepAlive, contentType)
+}
+
+func BugFix(
     conn net.Conn,
     status int,
     body string,
