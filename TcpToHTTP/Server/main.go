@@ -2,7 +2,7 @@
 
 package main
 
-#comment added
+#comment added in the main branch if you go to feature branch the comment should not be there
 
 import (
 	"fmt"
